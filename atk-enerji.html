@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atk Enerji | Elektrik Tesisatı & Bakım</title>
+  <meta name="description" content="Atk Enerji - Elektrik tesisatı, alt/üst yapı, bakım ve onarım hizmetleri." />
+  <style>
+    :root{
+      --brand-navy:#12263a;
+      --brand-mid:#2b4a6f;
+      --accent:#0077cc;
+      --muted:#6b7280;
+      --bg:#ffffff;
+      --card:#f6f8fb;
+      --max-w:1100px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#0f172a; background:var(--bg); -webkit-font-smoothing:antialiased}
+    a{color:inherit; text-decoration:none}
+    .container{max-width:var(--max-w); margin:0 auto; padding:24px}
+    header{background:linear-gradient(180deg, rgba(18,38,58,0.98), rgba(43,74,111,0.9)); color:white}
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:16px}
+    .brand{display:flex; align-items:center; gap:12px}
+    .logo{width:48px; height:48px; border-radius:8px; background:linear-gradient(135deg,var(--brand-mid),var(--brand-navy)); display:flex; align-items:center; justify-content:center; font-weight:700; color:white}
+    nav ul{display:flex; gap:12px; list-style:none; margin:0; padding:0}
+    nav li a{padding:8px 12px; border-radius:6px}
+    .hero{display:flex; gap:32px; align-items:center; padding:48px 0}
+    .hero .left{flex:1}
+    .hero h1{font-size:28px; margin:0 0 12px}
+    .hero p{color:#e6eef8; margin:0 0 18px}
+    .cta{display:inline-block; background:var(--accent); color:white; padding:10px 16px; border-radius:8px}
+    .cta-outline{display:inline-block; color:white; padding:10px 16px; border-radius:8px; border:1px solid rgba(255,255,255,0.18); margin-left:12px}
+    .hero .right{width:320px; background:var(--card); padding:18px; border-radius:12px}
+    main section{padding:48px 0;}
+    h2{color:var(--brand-navy); margin:0 0 12px}
+    p.lead{color:var(--muted); margin:0 0 18px}
+    .services{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+    .card{background:white; border:1px solid #e6eef5; padding:18px; border-radius:10px}
+    .projects{display:grid; grid-template-columns:repeat(3,1fr); gap:12px}
+    .project-img{height:160px; border-radius:8px; background:linear-gradient(90deg,#e9eef6,#f6fbff); display:flex; align-items:center; justify-content:center; color:var(--muted)}
+    .contact-grid{display:grid; grid-template-columns:1fr 360px; gap:24px}
+    form{background:white; padding:18px; border-radius:10px; border:1px solid #eef3f8}
+    label{display:block; font-size:13px; margin-bottom:6px; color:var(--brand-navy)}
+    input, textarea{width:100%; padding:10px; border:1px solid #dbe7f3; border-radius:8px; margin-bottom:12px}
+    button.primary{background:var(--brand-mid); color:white; padding:10px 14px; border-radius:8px; border:none}
+    footer{padding:18px 0; border-top:1px solid #eef3f8; color:var(--muted)}
+    @media (max-width:900px){
+      .services, .projects{grid-template-columns:repeat(2,1fr)}
+      .contact-grid{grid-template-columns:1fr}
+      .hero{flex-direction:column}
+      .hero .right{width:100%}
+    }
+    @media (max-width:520px){
+      .services, .projects{grid-template-columns:1fr}
+      nav ul{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">ATK</div>
+        <div>
+          <div style="font-weight:700">Atk Enerji</div>
+          <div style="font-size:12px; color:rgba(255,255,255,0.8)">Sanayi Ticaret Ltd. Şti.</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#services">Hizmetler</a></li>
+          <li><a href="#projects">Yapılan İşler</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <footer>
+    <div class="container">© 2025 Atk Enerji Sanayi Ticaret Ltd. Şti. | Tüm hakları saklıdır.</div>
+  </footer>
+</body>
+</html>
